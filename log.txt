@@ -19,3 +19,9 @@ Backup created: /backups/nginx_backup_2026-03-19.tar.gz
 Verifying backup contents:
 Backup completed - Thu Mar 19 11:21:41 EDT 2026
 ----------------------------------
+
+
+
+## NOTE
+
+Here, since I have not installed Apache or Nginx on the test server, the default files were not created. In the production server, there are always default paths present, and the scripts will work.
