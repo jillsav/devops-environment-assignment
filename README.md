@@ -89,3 +89,28 @@ Backups are scheduled using cron:
 0 0 * * 2 /path/to/apache_backup.sh
 
 0 0 * * 2 /path/to/nginx_backup.sh
+
+
+
+Logs are stored in:
+
+/backups/apache_backup_log.txt  
+/backups/nginx_backup_log.txt
+
+---
+
+## Expected Output
+
+- Backup files created in `/backups/`
+- Log files generated
+- Archive contents successfully listed (verification)
+
+---
+
+## Conclusion
+
+This setup ensures:
+
+- Automated and consistent backups
+- Secure storage of critical web server data
+- Easy recovery in case of system failure
