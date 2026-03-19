@@ -1,0 +1,21 @@
+root@ubuntu-host / ➜  cat /backups/apache_backup_log.txt
+Starting Apache backup - Thu Mar 19 11:21:30 EDT 2026
+tar: Removing leading `/' from member names
+tar: /etc/httpd: Cannot stat: No such file or directory
+tar: /var/www/html: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+Backup created: /backups/apache_backup_2026-03-19.tar.gz
+Verifying backup contents:
+Backup completed - Thu Mar 19 11:21:30 EDT 2026
+----------------------------------
+
+root@ubuntu-host / ➜  cat /backups/nginx_backup_log.txt
+Starting Nginx backup - Thu Mar 19 11:21:41 EDT 2026
+tar: Removing leading `/' from member names
+tar: /etc/nginx: Cannot stat: No such file or directory
+tar: /usr/share/nginx/html: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+Backup created: /backups/nginx_backup_2026-03-19.tar.gz
+Verifying backup contents:
+Backup completed - Thu Mar 19 11:21:41 EDT 2026
+----------------------------------
