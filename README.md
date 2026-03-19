@@ -87,4 +87,5 @@ sudo ./backup_scripts/nginx_backup.sh
 Backups are scheduled using cron:
 
 0 0 * * 2 /path/to/apache_backup.sh
+
 0 0 * * 2 /path/to/nginx_backup.sh
